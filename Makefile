@@ -1,5 +1,5 @@
 push:
-	git commit -am 'Automatic change' && git push
+	git commit -am 'Automatic change' --allow-empty && git push
 
 test-fail:
 	ln -fs fail test
